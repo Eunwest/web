@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body {
+	max-width: 100%;
+	margin: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+a {
+	text-decoration: none;
+	color: #888;
+}
+a:hover {
+	text-decoration: underline;
+}
+header {
+	align-items: center;
+	position: relative;
+}
+fieldset {
+	border: none;
+}
+.visually-hidden {
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	white-space: nowrap;
+}
+.link {
+	position: relative;
+	top: 0;
+}
+.link_text {
+	font-size: 15px;
+	margin-left: 25px;
+}
+.banner {
+	width: 100%;
+}
+.banner img {
+	max-width: 100%;
+	height: auto;
+	background-position: center;
+}
+.nav {
+	position: absolute;
+	top: 15px;
+}
+.about {
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-right: 80px;
+	justify-content: space-around;
+}
+.profile {
+	margin-bottom:50px;
+	display: flex;
+	max-width: 100%;
+	height: auto;
+	justify-content: space-between;
+}
+.profile img {
+	width: 200px;
+	height: 300px;
+}
+.info {
+	margin-top: 15px;
+	margin-left: 30px;
+	font-size: 20px;
+}
+.name1, .birth, .body {
+	font-size: 15px;
+}
+.sns a {
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+.sns img {
+	width: 25px;
+	height: 25px;
+	margin-top: 30px;
+}
+.photo {
+	max-width: 100%;
+	margin-left: 80px;
+	margin-right: 60px;
+	margin-bottom: 50px;
+	align-content: space-around;
+	align-content: center;
+}
+.photo img {
+	height: 250px;
+	transform: matrix(1.0);
+	transition: transform .7s;
+}
+.photo img:hover {
+	transform: scale(1.5);
+	transition: transform .7s;
+}
+.title {
+	margin-top: 60px;
+	margin-left: 80px;
+}
+hr {
+	margin-top: 40px;
+}
+.minibanner img {
+	width: 400px;
+	height: auto;
+	display: grid;
+	margin-top: 30px;
+}
+.Frame {
+	display: flex;
+}
+#container text-center p{
+	margin-left: 30px;
+}

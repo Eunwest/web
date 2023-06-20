@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+body {
+	max-width: 100%;
+	margin: 0;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+a {
+	text-decoration: none;
+	color: #888;
+}
+a:hover {
+	text-decoration: underline;
+}
+header {
+	align-items: center;
+	position: relative;
+}
+fieldset {
+	border: none;
+}
+.visually-hidden {
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px);
+	clip: rect(1px, 1px, 1px, 1px);
+	white-space: nowrap;
+}
+.link {
+	position: relative;
+	top: 0;
+}
+.link_text {
+	font-size: 15px;
+	margin-left: 25px;
+}
+.banner {
+	width: 100%;
+}
+.banner img {
+	max-width: 100%;
+	height: auto;
+	background-position: center;
+}
+.nav {
+	position: absolute;
+	top: 15px;
+}
+h1 {
+	margin-top: 100px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+.Month {
+	font-size: 30px;
+	font-color: black;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+hr {
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 100px;
+}
+.sub_banner {
+	margin: 5px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	height: 300px;
+	white-space: nowrap;
+	overflow: scroll;
+}
+.sat {
+	color: blue;
+}
+.sun {
+	color: red;
+}
+
+p {
+	color: black;
+}
+#table {
+	margin-right: 50px;
+	margin-left: 50px;
+}
